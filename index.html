@@ -3,10 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Rock Paper Scissors</title>
+		<script src="./script.js" defer></script> 
 	</head>	
 	<body>
 		<h1>Rock Paper Scissors</h1>
-		<p>The game lacks GUI and thus is done through promt-alert system. Please enjoy.</p>
-		<script src="./script.js"></script> 
+		<p>Please select one of the three options below to attack the computer!</p>
+		<div>
+			<button id="rock">Rock</button>
+			<button id="paper">Paper</button>
+			<button id="scissors">Scissors</button>
+		</div>
+		<h2>Round Results:</h2>
+		<div id="result-div">Results will go here.</div>
+		<h2>Score:</h2>
+		<div>Player: <span id="player-score">0</span></div>
+		<div>Computer: <span id="computer-score">0</span></div>
 	</body>
 </html>
